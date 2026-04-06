@@ -10,8 +10,8 @@
         padding-top: 1em;
     }
     .carousel-img{
-        height: 475px;
-        width: 575px;
+        height: 430px;
+        width: 530px;
         object-fit: cover;
         object-position: center;
     }
