@@ -299,8 +299,8 @@ a{
     border-bottom-color: maroon;
     border-bottom-style: ridge;
     border-bottom-width: thick;
-    border-bottom-left-radius: 5%;
-    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 7%;
+    border-bottom-right-radius: 7%;
 }
 
 /* styling for Who Am I? page*/
