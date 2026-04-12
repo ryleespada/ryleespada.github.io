@@ -28,7 +28,7 @@
     }
     .carousel-img{
         height: 75vw;
-        width: 75vw;
+        width: 100vw;
         object-fit: cover;
         object-position: center;
     }
