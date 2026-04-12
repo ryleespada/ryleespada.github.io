@@ -1,67 +1,80 @@
 @media (max-width: 768px) {
-
-    body {
+    body{
         width: 100%;
         margin: 0;
         padding: 1em;
         font-size: 1em;
         text-align: right;
     }
-
-    .title {
-        font-size: 1.8em;
+    .title{
+        font-size: 1.6em;
         white-space: nowrap;
         text-align: right;
         margin: 0;
     }
-
-    .title-row, .nonHomepage-title-row, .nonHomepage-content-container, #synopsis-greeting {
+    .title-row, .nonHomepage-title-row, .nonHomepage-content-container, #synopsis-greeting{
         margin-left: 1em !important;
         margin-right: 1em !important;
     }
-
-    #synopsis-greeting {
+    #synopsis-greeting{
         font-size: 1.2em;
         max-width: 100%;
+        text-align: right;
     }
-
-    .container-1 {
+    p{
+        max-width: 90%;
+        margin-left: auto;
+        line-height: 1.5;
+    }
+    .container-1{
         flex-direction: column;
     }
-
-    .column-left, .column-right {
+    .column-left, .column-right{
         width: 100%;
         margin: 0;
     }
-
-    .horizontal-nav-container {
+    .horizontal-nav-container{
+        display: flex;
         flex-direction: column;
         align-items: flex-end;
+        gap: 0.5em;
     }
-
-    .nav-list {
+    .nav-list{
         width: 100%;
+        margin: 0;
+        padding: 0;
         text-align: right;
+        list-style-position: inside;
+    }
+    .nav-list li{
         margin: 0;
         padding: 0;
     }
-
-    .nav-list li::marker {
-        font-size: 1.5em;
+    .nav-list li::marker{
+        font-size: 1.2em;
     }
-
-    #homepage-image {
-        width: 100%;
-        margin: 1em auto;
+    ul, ol{
+        margin: 0;
+        padding: 0;
+    }
+    li{
+        margin: 0;
+        padding: 0;
+    }
+    #homepage-image{
+        width: 70%;
         display: block;
+        margin: 2em auto;
     }
-
-    .carousel-img {
+    .carousel{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .carousel-img{
         width: 100%;
         height: auto;
     }
-
-    iframe {
+    iframe{
         width: 75vw;
         height: 75vw;
         margin: 0 auto;
