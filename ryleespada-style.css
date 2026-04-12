@@ -91,6 +91,10 @@
         text-align: center;
         width: 100%;
     }
+   .nav-item_label{
+      font-size: 1em;
+   }
+
     #linked-in-container{
         width: 100%;
         display: flex;
