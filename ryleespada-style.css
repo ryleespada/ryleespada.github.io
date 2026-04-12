@@ -76,6 +76,38 @@
         display: block;
         margin: 1.5em auto;
     }
+   .container-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+   }
+   .vertical-nav-container{
+       width: 100%;
+       display: flex;
+       justify-content: center;
+   }
+   .nav-list{
+       text-align: center;
+       width: 100%;
+   }
+   #linked-in-container{
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       margin-top: 1.5em;
+   }
+   .button{
+       display: block;
+       width: 80%;
+       text-align: center;
+       margin: 0 auto;
+   }
+   #linked-in-link{
+       font-size: 1em;
+       text-align: center;
+       margin: 0;
+   }
     #WhoAmI-content-container, #about-me, #areas-of-interest, #who-am-i-background, #who-am-i-background-content, #who-am-i-table{
         margin: 0 !important;
         padding: 0 !important;
