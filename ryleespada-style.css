@@ -8,18 +8,18 @@
         margin: 0 auto;
         flex-direction: column;
         padding-top: 1em;
-        font-size: 1em;
+        font-size: .5em;
     }
     .column-left{
-        width: 90vw;
+        width: 100vw;
         margin: .5em;
     }
     .column-right{
-        width: 75vw;
+        width: 100vw;
         margin: .5em;
     }
     #homepage-image{
-        width: 60vw;
+        width: 100vw;
     }
     .carousel-img{
         height: 75vw;
