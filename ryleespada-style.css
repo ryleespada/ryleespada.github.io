@@ -1,3 +1,28 @@
+@media screen and (min-width: 375px) and (max-width: 430px) and (orientation: portrait) {
+    body{
+        background-image: url(RyleeSpada_ProfessionalWebsite_Assets/background-texture.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+        padding-top: .25em;
+    }
+    .carousel-img{
+        height: 30px;
+        width: 130px;
+        object-fit: cover;
+        object-position: center;
+    }
+    iframe{
+        margin-bottom: .25em;
+        height: 150px;
+        width: 75vw;
+        border: .2em inset maroon;
+    }
+}
+
 @media screen and (max-width: 1471px) {
     body{
         background-image: url(RyleeSpada_ProfessionalWebsite_Assets/background-texture.png);
