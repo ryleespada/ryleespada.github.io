@@ -7,11 +7,9 @@
         width: 100%;
         margin: 0 auto;
         padding: 1em;
-        display: flex;
-        flex-direction: column;
         font-size: 1em;
     }
-    .containter-1{
+    .container-1{
         flex-direction: column;
     }
     
@@ -26,6 +24,16 @@
     }
     #synopsis-greeting{
         margin: 0 auto;
+        text-align: left;
+        font-size: 1.2em;
+        max-width: 100%;
+    }
+    .nav-list {
+        width: 100%;
+        text-align: center;
+    }
+    .nav-list li {
+        margin-left: 0;
     }
     .nonHomepage-title-row, .nonHomepage-content-container{
         margin-left: 1em;
@@ -35,14 +43,20 @@
         flex-direction: column;
         align-items: center;
     }
-
     .Projects-horizontal-nav-column-1, .Projects-horizontal-nav-column-2, .Projects-horizontal-nav-column-3 {
         width: 100%;
         margin-bottom: .5em;
     }
+    .title-row,
+    #synopsis-greeting,
+    .nonHomepage-title-row,
+    .nonHomepage-content-container {
+        margin-left: 1em !important;
+        margin-right: 1em !important;
+    }
     .carousel-img{
-        height: 75vw;
-        width: 100vw;
+        height: auto;
+        width: 100%;
         object-fit: cover;
         object-position: center;
     }
