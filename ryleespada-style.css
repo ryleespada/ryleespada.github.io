@@ -5,11 +5,11 @@
         background-size: cover;
         background-attachment: fixed;
         width: 75%;
-        margin: 0 auto;
+        margin: .25em;
         display: flex;
         flex-direction: column;
         padding-top: 1em;
-        font-size: .7em;
+        font-size: .6em;
     }
     .column-left{
         width: 100vw;
@@ -21,6 +21,10 @@
     }
     #homepage-image{
         width: 100vw;
+        margin: .5em;
+    }
+    #synopsis-greeting{
+        margin: 0 auto;
     }
     .carousel-img{
         height: 75vw;
@@ -103,7 +107,7 @@
 }
 
 #homepage-image{
-    margin: auto;
+    margin: 0 auto;
     width: 33vw;
     max-width: 100%;
     margin-top: 1.5em;
