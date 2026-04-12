@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 768px){
     body{
         width: 100%;
         margin: 0;
@@ -6,13 +6,20 @@
         font-size: 1em;
         text-align: right;
     }
-    .title{
-        font-size: 1.6em;
+    .title, #title-no-link{
+        font-size: 1.4em;
         white-space: nowrap;
         text-align: right;
-        margin: 0;
+        margin: 0 auto;
+        padding: 10px;
+        width: fit-content;
     }
-    .title-row, .nonHomepage-title-row, .nonHomepage-content-container, #synopsis-greeting{
+    .title-row, .nonHomepage-title-row{
+        margin: 0 auto !important;
+        display: flex;
+        justify-content: center;
+    }
+    .nonHomepage-content-container, #synopsis-greeting{
         margin-left: 1em !important;
         margin-right: 1em !important;
     }
@@ -22,12 +29,13 @@
         text-align: right;
     }
     p{
-        max-width: 90%;
+        max-width: 100%;
         margin-left: auto;
         line-height: 1.5;
     }
     .container-1{
         flex-direction: column;
+        align-items: center;
     }
     .column-left, .column-right{
         width: 100%;
@@ -36,14 +44,14 @@
     .horizontal-nav-container{
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
+        align-items: center;
         gap: 0.5em;
     }
     .nav-list{
         width: 100%;
         margin: 0;
         padding: 0;
-        text-align: right;
+        text-align: center;
         list-style-position: inside;
     }
     .nav-list li{
@@ -66,13 +74,34 @@
         display: block;
         margin: 2em auto;
     }
+    #WhoAmI-content-container, #about-me, #areas-of-interest, #who-am-i-background, #who-am-i-background-content, #who-am-i-table{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .who-am-i-table-list, .who-am-i-table-inner-list{
+        margin: 0 !important;
+        padding: 0 !important;
+        list-style-position: inside;
+    }
     .carousel{
         width: 100%;
         margin: 0 auto;
     }
-    .carousel-img{
+    .carousel-item{
         width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .carousel-img{
+        width: 90%;
         height: auto;
+        object-fit: cover;
+    }
+    .carousel-caption{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        flex-direction: column;
     }
     iframe{
         width: 75vw;
