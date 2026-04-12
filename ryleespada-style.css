@@ -7,8 +7,19 @@
         width: 75%;
         margin: 0 auto;
         flex-direction: column;
-        padding-top: .25em;
-        font-size: .1em;
+        padding-top: 1em;
+        font-size: 1em;
+    }
+    .column-left{
+        width: 90vw;
+        margin: .5em;
+    }
+    .column-right{
+        width: 75vw;
+        margin: .5em;
+    }
+    #homepage-image{
+        width: 60vw;
     }
     .carousel-img{
         height: 75vw;
