@@ -1,116 +1,150 @@
-@media (max-width: 768px) {
+@media (max-width: 768px){
+    *{
+        box-sizing: border-box;
+    }
     body{
         width: 100%;
         margin: 0;
-        padding: 1em;
+        padding: 0.75em;
         font-size: 1em;
         text-align: right;
     }
-    .title{
-        font-size: 1.6em;
+    .title, #title-no-link{
+        font-size: 1.3em;
         white-space: nowrap;
-        text-align: right;
-        margin: 0;
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 8px;
     }
     .title-row, .nonHomepage-title-row{
-        margin-left: 0;
-        margin-right: 0;
-        text-align: right;
+        width: 100%;
+        margin: 0 auto !important;
+        display: flex;
+        justify-content: center;
     }
-    .nonHomepage-content-container, #synopsis-greeting{
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #synopsis-greeting{
-        font-size: 1.2em;
-        max-width: 100%;
-        text-align: right;
-    }
-    p{
-        max-width: 100%;
-        margin: 0;
-        line-height: 1.5;
-        text-align: right;
-    }
-
     .container-1{
+        display: flex;
         flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
     .column-left, .column-right{
         width: 100%;
-        margin: 0;
+        margin: 0 !important;
+        padding: 0;
+    }
+    #synopsis-greeting{
+        font-size: 1.1em;
+        max-width: 100%;
+        text-align: right;
+        margin: 1em 0 !important;
+    }
+    p{
+        max-width: 100%;
+        margin: 0 0 1em 0;
+        line-height: 1.5;
     }
     .horizontal-nav-container{
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 1em;
-        margin: 2em 0;
+        width: 100%;
+        gap: 0.75em;
     }
     .nav-list{
         width: 100%;
         margin: 0;
         padding: 0;
-        list-style: none;
         text-align: center;
-    }
-    .nav-list li{
-        margin: 0.5em 0;
-        padding: 0;
-    }
-    ul, ol{
-        margin: 0;
-        padding: 0;
         list-style-position: inside;
     }
-    li{
+    .nav-list li{
         margin: 0;
         padding: 0;
     }
-    .nonHomepage-content-container ul, .nonHomepage-content-container ol{
+    .nav-list li::marker{
+        font-size: 1em;
+    }
+    ul, ol, li{
         margin: 0;
         padding: 0;
-        text-align: right;
-    }
-    .nonHomepage-content-container li{
-        margin: 0.5em 0;
-        padding: 0;
-        text-align: right;
-    }
-    h1, h2{
-        text-align: center;
-        margin-left: 0;
-        margin-right: 0;
     }
     #homepage-image{
-        width: 70%;
+        width: 65%;
         display: block;
-        margin: 2em auto;
+        margin: 1.5em auto;
     }
-    a.button, .linkedin-button{
-        display: block;
-        width: 70%;
-        margin: 2em auto;
+    .container-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .vertical-nav-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .nav-list{
         text-align: center;
+        width: 100%;
+    }
+    #linked-in-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 1.5em;
+    }
+    .button{
+        display: block;
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #linked-in-link{
+        font-size: 1em;
+        text-align: center;
+        margin: 0;
+    }
+    #WhoAmI-content-container, #about-me, #areas-of-interest, #who-am-i-background, #who-am-i-background-content, #who-am-i-table{
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100%;
+    }
+    .who-am-i-table-list, .who-am-i-table-inner-list{
+        margin: 0 !important;
+        padding: 0 !important;
+        list-style-position: inside;
+    }
+    .who-am-i-table-data{
+        padding: 0.5em 0;
     }
     .carousel{
         width: 100%;
-        margin: 2em auto;
-        overflow: hidden;
+        margin: 1em auto;
     }
-    .carousel-inner{
+    .carousel-item{
         display: flex;
-        width: 100%;
+        justify-content: center;
+        align-items: center;
     }
     .carousel-img{
-        width: 100%;
+        width: 90%;
         height: auto;
-        object-fit: contain;
+        object-fit: cover;
+    }
+    .carousel-caption{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        display: block;
     }
     iframe{
-        width: 90vw;
+        width: 90%;
         height: 90vw;
-        margin: 0 auto;
+        margin: 1em auto;
         display: block;
     }
 }
