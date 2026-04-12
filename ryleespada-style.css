@@ -1,70 +1,71 @@
-@media screen and (max-width: 768px) and (orientation: portrait) {
-    body{
-        background-image: url(RyleeSpada_ProfessionalWebsite_Assets/background-texture.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
+@media (max-width: 768px) {
+
+    body {
         width: 100%;
-        margin: 0 auto;
+        margin: 0;
         padding: 1em;
         font-size: 1em;
+        text-align: right;
     }
-    .container-1{
+
+    .title {
+        font-size: 1.8em;
+        white-space: nowrap;
+        text-align: right;
+        margin: 0;
+    }
+
+    .title-row, .nonHomepage-title-row, .nonHomepage-content-container, #synopsis-greeting {
+        margin-left: 1em !important;
+        margin-right: 1em !important;
+    }
+
+    #synopsis-greeting {
+        font-size: 1.2em;
+        max-width: 100%;
+    }
+
+    .container-1 {
         flex-direction: column;
     }
-    
-    .column-left, .column-right{
+
+    .column-left, .column-right {
         width: 100%;
-        margin: 0 auto;
+        margin: 0;
     }
-    #homepage-image{
+
+    .horizontal-nav-container {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .nav-list {
+        width: 100%;
+        text-align: right;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-list li::marker {
+        font-size: 1.5em;
+    }
+
+    #homepage-image {
         width: 100%;
         margin: 1em auto;
         display: block;
     }
-    #synopsis-greeting{
-        margin: 0 auto;
-        text-align: left;
-        font-size: 1.2em;
-        max-width: 100%;
-    }
-    .nav-list {
+
+    .carousel-img {
         width: 100%;
-        text-align: center;
-    }
-    .nav-list li {
-        margin-left: 0;
-    }
-    .nonHomepage-title-row, .nonHomepage-content-container{
-        margin-left: 1em;
-        margin-right: 1em;
-    }
-    .horizontal-nav-container {
-        flex-direction: column;
-        align-items: center;
-    }
-    .Projects-horizontal-nav-column-1, .Projects-horizontal-nav-column-2, .Projects-horizontal-nav-column-3 {
-        width: 100%;
-        margin-bottom: .5em;
-    }
-    .title-row,
-    #synopsis-greeting,
-    .nonHomepage-title-row,
-    .nonHomepage-content-container {
-        margin-left: 1em !important;
-        margin-right: 1em !important;
-    }
-    .carousel-img{
         height: auto;
-        width: 100%;
-        object-fit: cover;
-        object-position: center;
     }
-    iframe{
-        margin-bottom: .25em;
-        height: 75vw;
+
+    iframe {
         width: 75vw;
-        border: .2em inset maroon;
+        height: 75vw;
+        margin: 0 auto;
+        display: block;
     }
 }
 
