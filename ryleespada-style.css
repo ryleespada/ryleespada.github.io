@@ -86,11 +86,7 @@
         width: 100%;
         display: flex;
         justify-content: right;
-    }
-    .nav-list{
-        text-align: center;
-        width: 100%;
-    }
+   }
    .nav-item_label{
       font-size: 1em;
    }
