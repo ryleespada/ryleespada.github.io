@@ -129,6 +129,9 @@
         width: 300px;
         margin: 1em auto;
     }
+    .carousel-indicators{
+        width: 300px;
+    }
     .carousel-item{
         display: flex;
         justify-content: center;
